@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>Gästbok</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <h1>Min gästbok</h1>
+
+    <form action="/spara" method="POST">
+
+        <label for="namn">Namn:</label><br>
+        <input type="text" id="namn" name="namn" required>
+
+        <br><br>
+
+        <label for="meddelande">Meddelande:</label><br>
+        <textarea id="meddelande" name="meddelande" required></textarea>
+
+        <br><br>
+
+        <button type="submit">Skicka</button>
+
+    </form>
+
+    <hr>
+
+    <h2>Inlägg</h2>
+
+    {% for inlagg in inlagg|reverse %}
+
+        <div class="inlagg">
+            <h3>{{ inlagg.namn }}</h3>
+            <p>{{ inlagg.meddelande }}</p>
+            <small>{{ inlagg.tid }}</small>
+        </div>
+
+    {% else %}
+
+        <p>Det finns inga inlägg ännu.</p>
+
+    {% endfor %}
+
+</body>
+</html>

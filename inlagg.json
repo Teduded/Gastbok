@@ -13,5 +13,35 @@
         "namn": "test 3 ",
         "meddelande": "nu måste det funka!",
         "tid": "2026-10-01 12:53"
+    },
+    {
+        "namn": "t          e d",
+        "meddelande": "yayayayayayayayayayaayayayayayayayay det funkarq",
+        "tid": "2026-10-01 12:59"
+    },
+    {
+        "namn": "AAAAAAAAAAAAAAAAAAAAAAAA",
+        "meddelande": "😎😎😎🥴🥴🥴🥴🥴🥴❤️❤️❤️⬆️💪⬆️💪🩻😅🩻😅🩻😎🥀😎🏆💪⬆️⬆️🤪🎮🤪🎮⭐🎖️🐵🐵😻🙊🌭🌭🍿🍿🍔🍿🥚🧇🥚🧇🥚🥖🥚🥞🥚🥞🍳🥞🍳🧈🍔🍿🍿🍿🍿🍟▦▦",
+        "tid": "2026-10-01 13:03"
+    },
+    {
+        "namn": "CARLS MAMMA ",
+        "meddelande": "TEDS MAMMA ÄR SÅ STOLT",
+        "tid": "2026-10-01 13:09"
+    },
+    {
+        "namn": "...",
+        "meddelande": "NICK SKREV ⬇️⬇️⬇️",
+        "tid": "2026-10-01 13:09"
+    },
+    {
+        "namn": "Nick",
+        "meddelande": "Hej detta är mitt första medellande\r\n",
+        "tid": "2026-10-01 13:10"
+    },
+    {
+        "namn": "Nick",
+        "meddelande": "Meddelande*",
+        "tid": "2026-10-01 13:10"
     }
 ]

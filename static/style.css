@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    width: 700px;
+    margin: 30px auto;
+}
+
+input {
+    width: 300px;
+    padding: 5px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+}
+
+button {
+    padding: 7px 15px;
+}
+
+.inlagg {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    resize: none;
+}
